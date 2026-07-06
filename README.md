@@ -1,8 +1,8 @@
-## Exoplanet Explorer Relational Database##
+## Exoplanet Explorer Relational Database ##
 
 This project is a relational database and Node.js web application designed to analyze exoplanetary data from the NASA Exoplanet Archive. The goal is to provide a structured way to filter, locate, and learn about potential Earth-like planets using scientific data points.
 
-###Project Overview###
+### Project Overview ###
 
 This application demonstrates the complete database lifecycle:
 
@@ -12,7 +12,7 @@ Relational Modeling: Implementing a schema in MySQL with junction tables to hand
 
 Web Interface: A dynamic Node.js web application for querying the database to answer specific habitability research questions.
 
-###Features###
+### Features ###
 
 Earth-Like Filters: Search for exoplanets based on radius, equilibrium temperature, and mass.
 
@@ -22,7 +22,7 @@ Discovery History: Track exoplanet discoveries by year, facility, and method.
 
 Normalized Database: Schema adheres to 3NF, ensuring data integrity and efficiency.
 
-###Getting Started###
+### Getting Started ###
 Prerequisites
 
 Node.js installed
@@ -46,19 +46,19 @@ DB_PASSWORD=your_password
 DB_NAME=Earth_Like_Exoplanets
 
 
-###Database Setup###
+### Database Setup ###
 
 Open your MySQL terminal.
 
 Run the provided setup script: mysql -u root -p < setup.sql
 
-###Running the Application###
+### Running the Application ###
 
 Start the server:node server.js
 
 Open your browser and navigate to http://localhost:3000.
 
-###Documentation###
+### Documentation ###
 
 Report: See Exoplanet Explorer Project.pdf for the full ER diagram, normalization analysis, and research reflection.
 
